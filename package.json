@@ -1,0 +1,22 @@
+{
+  "name": "swagger-json-parser",
+  "version": "1.0.0",
+  "bin": {
+    "swagger-json-parser": "./dist/index.js"
+  },
+  "description": "cli tool that convert swagger.json to typescript types",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Celery Liu",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "commander": "^12.0.0"
+  }
+}
