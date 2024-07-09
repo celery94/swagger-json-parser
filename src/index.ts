@@ -1,12 +1,5 @@
 import fs from "fs";
 import http from "http";
-import { program } from "commander";
-
-program.option("-f, --file <type>", "input file").option("-o, --output <type>", "output file");
-
-program.parse(process.argv);
-
-const options = program.opts();
 
 const args = process.argv.slice(2);
 const url = args[0];
